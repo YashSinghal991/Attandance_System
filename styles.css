@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f7fb;
+  color: #1f2937;
+  margin: 0;
+}
+.container {
+  max-width: 860px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+.form-grid {
+  display: grid;
+  gap: 0.6rem;
+}
+input, button {
+  padding: 0.7rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+}
+button {
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+}
+.qr {
+  width: 240px;
+  max-width: 100%;
+}
+code {
+  display: block;
+  padding: 0.6rem;
+  background: #eef2ff;
+  border-radius: 6px;
+  overflow-wrap: anywhere;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+  padding: 0.5rem;
+}
+#reader {
+  margin-top: 1rem;
+}
+.ok { color: #16a34a; }
+.error { color: #dc2626; }
+
